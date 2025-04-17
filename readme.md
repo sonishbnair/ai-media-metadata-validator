@@ -162,7 +162,7 @@ validation:
 
 ### Validation Application
 
-For testing the design, I have developed [a Python application](./validate_summary_generated_by_ai.py) that validates the output of GenAI's video summarization, which is [provided in JSON format](./tech_summary_from_media_index_service.json). The application reads the JSON file and checks it against the YAML rules defined in the aforementioned rules file, producing a detailed validation report that highlights any issues.
+For testing the design, I have developed [a Python application](./validate_summary_generated_by_ai.py) that validates the output of GenAI's video summarization, which is [provided in JSON format](./tech_summary_from_media_index_service.json). The application reads the JSON file and checks it against the YAML rules defined in the above mentioned rules file, producing a detailed validation report that highlights any issues.
 
 This design allows for easy adjustments to quality standards by simply modifying the YAML file, making it adaptable to various content types.
 
