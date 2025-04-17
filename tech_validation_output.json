@@ -1,0 +1,124 @@
+{
+  "valid": false,
+  "segments_validation": [
+    {
+      "segment_index": 0,
+      "segment_title": "Comparison and Switching Reasons",
+      "valid": true,
+      "field_validations": {
+        "segment_title": {
+          "valid": true,
+          "json_field_name": "Segment Title",
+          "errors": []
+        },
+        "timestamps": {
+          "valid": true,
+          "json_field_name": "Timestamps",
+          "errors": []
+        },
+        "editorial_subjects": {
+          "valid": true,
+          "json_field_name": "Editorial subjects",
+          "errors": []
+        },
+        "visual_subjects": {
+          "valid": true,
+          "json_field_name": "Visual Subjects",
+          "errors": []
+        },
+        "names": {
+          "valid": true,
+          "json_field_name": "Names",
+          "errors": []
+        },
+        "location": {
+          "valid": true,
+          "json_field_name": null,
+          "errors": []
+        }
+      }
+    },
+    {
+      "segment_index": 1,
+      "segment_title": "Battery Life and Price-to-Performance",
+      "valid": true,
+      "field_validations": {
+        "segment_title": {
+          "valid": true,
+          "json_field_name": "Segment Title",
+          "errors": []
+        },
+        "timestamps": {
+          "valid": true,
+          "json_field_name": "Timestamps",
+          "errors": []
+        },
+        "editorial_subjects": {
+          "valid": true,
+          "json_field_name": "Editorial subjects",
+          "errors": []
+        },
+        "visual_subjects": {
+          "valid": true,
+          "json_field_name": "Visual Subjects",
+          "errors": []
+        },
+        "names": {
+          "valid": true,
+          "json_field_name": "Names",
+          "errors": []
+        },
+        "location": {
+          "valid": true,
+          "json_field_name": null,
+          "errors": []
+        }
+      }
+    },
+    {
+      "segment_index": 2,
+      "segment_title": "Conclusion and Future Plans",
+      "valid": false,
+      "field_validations": {
+        "segment_title": {
+          "valid": false,
+          "json_field_name": "Segment Title",
+          "errors": [
+            "Field 'segment_title_confidence' should be at least 'high'"
+          ]
+        },
+        "timestamps": {
+          "valid": true,
+          "json_field_name": "Timestamps",
+          "errors": []
+        },
+        "editorial_subjects": {
+          "valid": true,
+          "json_field_name": "Editorial subjects",
+          "errors": []
+        },
+        "visual_subjects": {
+          "valid": true,
+          "json_field_name": "Visual Subjects",
+          "errors": []
+        },
+        "names": {
+          "valid": true,
+          "json_field_name": "Names",
+          "errors": []
+        },
+        "location": {
+          "valid": true,
+          "json_field_name": null,
+          "errors": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_segments": 3,
+    "valid_segments": 2,
+    "invalid_segments": 1,
+    "overall_status": "FAIL"
+  }
+}

@@ -1,0 +1,80 @@
+# Video Summary Metadata Validation Rules
+validation:
+  structure:
+    required: true
+    type: object
+    fields:
+      segments:
+        required: true
+        type: array
+        min_items: 1
+        item_schema:
+          type: object
+          fields:
+            segment_title:
+              required: true
+              type: string
+              min_length: 3
+            timestamps:
+              required: true
+              type: string
+              pattern: "\\d{2}:\\d{2}–\\d{2}:\\d{2}"
+            editorial_subjects:
+              required: true
+              type: array
+              min_items: 2
+            visual_subjects:
+              required: true
+              type: array
+              min_items: 2
+            names:
+              required: true
+              type: array
+            location:
+              required: true
+              type: string
+            confidence_level:
+              required: true
+              type: object
+              fields:
+                segment_title:
+                  required: true
+                  type: number
+                  min: 70
+                timestamps:
+                  required: true
+                  type: number
+                  min: 70
+                editorial_subjects:
+                  required: true
+                  type: number
+                  min: 70
+                visual_subjects:
+                  required: true
+                  type: number
+                  min: 70
+                names:
+                  required: true
+                  type: number
+                  min: 70
+                location:
+                  required: true
+                  type: number
+                  min: 70
+
+  # Essential quality checks
+  quality_checks:
+    # Content coverage(duration of segments) check
+    segment_coverage:
+      min_segments: 1
+      max_time_gap: 15  # slightly more permissive for PoC
+
+    # Basic content quality checks
+    content_quality:
+      min_editorial_subjects: 2
+      min_visual_subjects: 2
+      
+    # Basic sequence validation
+    timestamp_validation:
+      enforce_sequence: true
+      must_cover_full_video: true

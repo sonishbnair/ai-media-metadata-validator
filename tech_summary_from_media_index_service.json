@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "Segment Title": "Comparison and Switching Reasons",
+      "Description": "The presenter discusses his reasons for switching from the iPhone 16 Pro Max to the iPhone 16E, focusing on screen size, comfort, and personal preferences.",
+      "Timestamps": "00:00–02:58",
+      "Editorial subjects": [
+        "Screen size comparison",
+        "Comfort and practicality",
+        "Personal preferences"
+      ],
+      "Visual Subjects": [
+        "Tech devices/hardware", "iPhone 16E and iPhone 16 Pro Max"],
+      "Names": ["Jon Adams"],
+      "confidence": "high",
+      "score": 95
+    },
+    {
+      "Segment Title": "Battery Life and Price-to-Performance",
+      "Description": "The presenter talks about the battery life and price-to-performance ratio of the iPhone 16E, explaining why it is a better fit for his needs.",
+      "Timestamps": "02:58–05:50",
+      "Editorial subjects": [
+        "Battery life comparison",
+        "Price-to-performance ratio",
+        "Magsafe functionality with a case"
+      ],
+      "Visual Subjects": [
+        "Tech devices/hardware", "iPhone 16E and iPhone 16 Pro Max", "User interfaces/software", "Home screens and app displays", "Demonstrations/benchmarks", "Battery life demonstration and magsafe charging"],
+      "Names": ["Jon Adams"],
+      "confidence": "high",
+      "score": 93
+    },
+    {
+      "Segment Title": "Conclusion and Future Plans",
+      "Description": "The presenter wraps up his discussion on the iPhone 16E, mentions future videos, and thanks viewers.",
+      "Timestamps": "05:50–05:55",
+      "Editorial subjects": [
+        "Future video plans",
+        "Thanking viewers"
+      ],
+      "Visual Subjects": [
+        "Tech devices/hardware", "iPhone 16E", "User interfaces/software", "Home screen", "Demonstrations/benchmarks","None"],
+      "Names": ["Jon Adams"],
+      "confidence": "medium",
+      "score": 85
+    }
+  ]
+}
