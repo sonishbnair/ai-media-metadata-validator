@@ -16,7 +16,7 @@
 
 Enterprises, media companies, and modern content creators all face the challenge of understanding their extensive petabytes of archived data. Currently, several AI services are available in the market that can index media files using techniques such as transcription, optical character recognition, and computer vision, etc.
 
-These Media Indexing services also provide GenAI models which enable generating metadata, summarizing videos, semantic search, and more. ome notable media indexing AI services include Twelve Labs, Coactive, and various others.
+These Media Indexing services also provide GenAI models which enable generating metadata, summarizing videos, semantic search, and more. Some notable media indexing AI services include Twelve Labs, Coactive, and various others.
 
 Adopting these media indexing technologies presents unique challenges due to the non-deterministic nature of AI. Organizations implementing these technologies must undergo thorough testing phases to build confidence in the media indexing services they choose. This process is crucial for ensuring that they trust the system before deploying it in a production environment.
 
